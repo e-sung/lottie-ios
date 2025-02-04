@@ -28,7 +28,7 @@ Lottie enables designers to create and ship beautiful animations without an engi
   s.tvos.deployment_target = '13.0'
   s.visionos.deployment_target = "1.0"
 
-  s.source_files = 'Sources/**/*.swift'
+  s.vendored_frameworks = 'Lottie.xcframework'
   s.resource_bundles = {
     'LottiePrivacyInfo' => ['Sources/PrivacyInfo.xcprivacy'],
   }
